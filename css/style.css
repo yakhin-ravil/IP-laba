@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F1E1E;
+}
+
+button{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+img {
+    max-width: 300px;
+    height: auto;
+    vertical-align: middle;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
